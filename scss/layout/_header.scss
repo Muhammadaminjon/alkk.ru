@@ -98,6 +98,9 @@
   justify-content: space-between;
   list-style: none;
   gap: 25px;
+  @include media(700px) {
+    gap: 15px;
+  }
 }
 .header__nav__item {
   text-transform: uppercase;
@@ -110,6 +113,10 @@
   letter-spacing: 4%;
   color: #333333;
   text-decoration: none;
+  @include media(700px) {
+    font-size: 12px;
+    line-height: 14px;
+  }
 }
 .header-nav__slash {
   font-family: "Fira Sans", sans-serif;
@@ -140,6 +147,10 @@
   text-decoration: none;
   @include media(600px) {
     margin-top: 157px;
+  }
+  @include media(700px) {
+    font-size: medium;
+    gap: 8px;
   }
 }
 .header__top-wrapper-link__text {
