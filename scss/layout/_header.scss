@@ -1,0 +1,208 @@
+.header {
+  padding: 14px 0px;
+  @include media(600px) {
+    &.show {
+      right: 0;
+    }
+    right: -100%;
+    height: auto;
+    width: 100%;
+    background: #333;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 80px 0 35px;
+    position: fixed;
+    transition: 0.35s cubic-bezier(0.95, 0.05, 0.95, 0.06);
+    .header-bottom {
+      background: #333;
+      &__list {
+        flex-direction: column;
+      }
+      &__link {
+        font-size: 20px;
+        line-height: 30px;
+      }
+    }
+    .header-top {
+      .header__container {
+        flex-direction: column;
+        .x-btn {
+          position: absolute;
+          display: block;
+          top: 27.82px;
+          right: 20.4px;
+        }
+        .header-nav__list {
+          display: flex;
+          gap: 20px;
+          flex-direction: column;
+          .header__nav__item {
+            .header-nav__link {
+              font-size: 20px;
+              line-height: 30px;
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+    .site-logo {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      @include media(600px) {
+        display: none;
+      }
+    }
+  }
+  .site-logo2 {
+    display: none;
+    @include media(600px) {
+      display: block;
+      position: absolute;
+      top: 20.7px;
+      left: 20.4px;
+    }
+  }
+  .x-btn {
+    width: 12px;
+    height: 12px;
+
+    display: none;
+    border: none;
+    background: transparent;
+  }
+}
+.header__container {
+  width: 100%;
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-top {
+  padding-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-logo__img {
+  width: 181px;
+  height: 26px;
+}
+.header-nav__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  gap: 25px;
+}
+.header__nav__item {
+  text-transform: uppercase;
+}
+.header-nav__link {
+  font-family: "Fira Sans";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.8px;
+  letter-spacing: 4%;
+  color: #333333;
+  text-decoration: none;
+}
+.header-nav__slash {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+}
+.header__top-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @include media(600px) {
+    &-link {
+      display: flex;
+      flex-direction: column;
+    }
+    &-link__text {
+      color: #fff;
+    }
+  }
+}
+.header__top-wrapper-link {
+  display: flex;
+  align-items: center;
+  gap: 12.4px;
+  color: #333333;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1;
+  text-decoration: none;
+}
+.header__top-wrapper-link__text {
+  border-bottom: 2px solid #333;
+}
+// header bottom styles
+.header__bottom {
+  width: 100%;
+  padding: 8.5px 0;
+  margin: 0 auto;
+  background: linear-gradient(0deg, #333333, #333333),
+    linear-gradient(0deg, #333333, #333333), #735ff2;
+}
+.header-bottom__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  list-style: none;
+  gap: 56px;
+  @include media(600px) {
+    display: flex;
+    gap: 20px;
+  }
+}
+.header-bottom__item {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.header-bottom__link {
+  text-decoration: none;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #fff;
+}
+.bgc-img {
+  background-image: url(../../images/jpg/bgc.jpg);
+  background-position: top;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  min-height: 358px;
+  width: 100%;
+  @include media(600px) {
+    min-height: 156px;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+// res
+.header-res {
+  padding: 20px 0;
+  display: none;
+  @include media(600px) {
+    display: block;
+  }
+}
+.res-logo {
+  border: none;
+  background: transparent;
+}
+.burger {
+  margin-left: auto;
+  border: none;
+  background: transparent;
+}

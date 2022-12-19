@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "Fira Sans";
+  src: url("./FiraSansExtraCondensed-Medium.woff2") format("woff2"),
+    url("./FiraSansExtraCondensed-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  src: url("./FiraSansExtraCondensed-SemiBold.woff2") format("woff2"),
+    url("./FiraSansExtraCondensed-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  src: url("./FiraSansExtraCondensed-Bold.woff2") format("woff2"),
+    url("./FiraSansExtraCondensed-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  src: url("./FiraSansExtraCondensed-Bold.woff2") format("woff2"),
+    url("./FiraSansExtraCondensed-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  src: url("./FiraSansExtraCondensed-SemiBold.woff2") format("woff2"),
+    url("./FiraSansExtraCondensed-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  src: url("./FiraSansExtraCondensed-Medium.woff2") format("woff2"),
+    url("./FiraSansExtraCondensed-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("./Gilroy-Medium.woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("./Gilroy-Regular.woff2") format("woff2"),
+    url("./Gilroy-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("./Gilroy-SemiBold.woff2") format("woff2"),
+    url("./Gilroy-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("./Gilroy-Bold.woff2") format("woff2"),
+    url("./Gilroy-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+  
