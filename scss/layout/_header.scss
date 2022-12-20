@@ -5,7 +5,7 @@
       right: 0;
     }
     right: -100%;
-    height: auto;
+    height: 100vh;
     width: 100%;
     background: #333;
     display: flex;
@@ -41,6 +41,10 @@
               font-size: 20px;
               line-height: 30px;
               color: #fff;
+              @include media(600px) {
+                font-size: 16px;
+                line-height: 19px;
+              }
             }
           }
         }
@@ -67,7 +71,6 @@
   .x-btn {
     width: 12px;
     height: 12px;
-
     display: none;
     border: none;
     background: transparent;
@@ -101,6 +104,9 @@
   @include media(700px) {
     gap: 15px;
   }
+  @include media(600px) {
+    gap: 20px;
+  }
 }
 .header__nav__item {
   text-transform: uppercase;
@@ -117,10 +123,17 @@
     font-size: 12px;
     line-height: 14px;
   }
+  @include media(600px) {
+    font-size: 16px;
+    line-height: 19px;
+  }
 }
 .header-nav__slash {
   font-family: "Fira Sans", sans-serif;
   font-weight: 400;
+  @include media(600px) {
+    display: none;
+  }
 }
 .header__top-wrapper {
   display: flex;
@@ -146,7 +159,7 @@
   line-height: 1;
   text-decoration: none;
   @include media(600px) {
-    margin-top: 157px;
+    margin-top: 157px; 
   }
   @include media(700px) {
     font-size: medium;
@@ -163,6 +176,10 @@
   margin: 0 auto;
   background: linear-gradient(0deg, #333333, #333333),
     linear-gradient(0deg, #333333, #333333), #735ff2;
+  @include media(600px) {
+    padding: 0;
+    margin-top: 60px;
+  }
 }
 .header-bottom__list {
   display: flex;
@@ -172,7 +189,6 @@
   list-style: none;
   gap: 56px;
   @include media(600px) {
-    display: flex;
     gap: 20px;
   }
 }
@@ -183,6 +199,7 @@
 }
 .header-bottom__link {
   text-decoration: none;
+  text-transform: uppercase;
   font-family: "Fira Sans", sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -191,7 +208,7 @@
 }
 .bgc-img {
   background-image: url(../../images/jpg/bgc.jpg);
-  background-position:  top top;
+  background-position: top top;
   background-size: 100%;
   background-repeat: no-repeat;
   min-height: 358px;
@@ -219,4 +236,12 @@
   margin-left: auto;
   border: none;
   background: transparent;
+}
+
+.header-hr {
+  margin: 40px 20px;
+  border: none;
+  background: #fff;
+  opacity: 10%;
+  min-height: 1px;
 }
