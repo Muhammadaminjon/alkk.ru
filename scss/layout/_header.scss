@@ -1,6 +1,6 @@
 .header {
   padding-top: 14px;
-  @include media(600px) {
+  @include media(620px) {
     &.show {
       right: 0;
     }
@@ -41,7 +41,7 @@
               font-size: 20px;
               line-height: 30px;
               color: #fff;
-              @include media(600px) {
+              @include media(620px) {
                 font-size: 16px;
                 line-height: 19px;
               }
@@ -54,14 +54,14 @@
       position: absolute;
       top: 20px;
       left: 20px;
-      @include media(600px) {
+      @include media(620px) {
         display: none;
       }
     }
   }
   .site-logo2 {
     display: none;
-    @include media(600px) {
+    @include media(620px) {
       display: block;
       position: absolute;
       top: 20.7px;
@@ -104,7 +104,7 @@
   @include media(700px) {
     gap: 15px;
   }
-  @include media(600px) {
+  @include media(620px) {
     gap: 20px;
   }
 }
@@ -123,7 +123,7 @@
     font-size: 12px;
     line-height: 14px;
   }
-  @include media(600px) {
+  @include media(620px) {
     font-size: 16px;
     line-height: 19px;
   }
@@ -131,7 +131,7 @@
 .header-nav__slash {
   font-family: "Fira Sans", sans-serif;
   font-weight: 400;
-  @include media(600px) {
+  @include media(620px) {
     display: none;
   }
 }
@@ -139,7 +139,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  @include media(600px) {
+  @include media(620px) {
     &-link {
       display: flex;
       flex-direction: column;
@@ -158,7 +158,7 @@
   font-size: 18px;
   line-height: 1;
   text-decoration: none;
-  @include media(600px) {
+  @include media(620px) {
     margin-top: 157px; 
   }
   @include media(700px) {
@@ -176,7 +176,7 @@
   margin: 0 auto;
   background: linear-gradient(0deg, #333333, #333333),
     linear-gradient(0deg, #333333, #333333),;
-  @include media(600px) {
+  @include media(620px) {
     margin-top: 60px;
   }
 }
@@ -187,7 +187,7 @@
   text-align: center;
   list-style: none;
   gap: 56px;
-  @include media(600px) {
+  @include media(620px) {
     gap: 20px;
   }
 }
@@ -207,12 +207,12 @@
 }
 .bgc-img {
   background-image: url(../../images/jpg/bgc.jpg);
-  background-position: top czzzzzz;
+  background-position: top center;
   background-size: 100%;
   background-repeat: no-repeat;
   min-height: 358px;
   width: 100%;
-  @include media(600px) {
+  @include media(620px) {
     min-height: 156px;
     background-size: contain;
     background-position: top center;
@@ -223,7 +223,7 @@
 .header-res {
   padding: 20px 0;
   display: none;
-  @include media(600px) {
+  @include media(620px) {
     display: block;
   }
 }
@@ -239,7 +239,8 @@
 
 .header-hr {
   display: none;
-@include media(600px){
+@include media(620px){
+  display: block;
   margin: 40px 20px;
   border: none;
   background: #fff;
