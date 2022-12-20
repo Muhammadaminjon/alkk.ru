@@ -207,15 +207,15 @@
 }
 .bgc-img {
   background-image: url(../../images/jpg/bgc.jpg);
-  background-position: top top;
+  background-position: top czzzzzz;
   background-size: 100%;
   background-repeat: no-repeat;
   min-height: 358px;
   width: 100%;
   @include media(600px) {
     min-height: 156px;
-    background-size: cover;
-    background-position: center;
+    background-size: contain;
+    background-position: top center;
   }
 }
 
@@ -238,9 +238,12 @@
 }
 
 .header-hr {
+  display: none;
+@include media(600px){
   margin: 40px 20px;
   border: none;
   background: #fff;
   opacity: 10%;
   min-height: 1px;
+}
 }
