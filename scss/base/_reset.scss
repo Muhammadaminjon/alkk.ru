@@ -8,18 +8,32 @@
 html {
   scroll-behavior: smooth;
   height: 100%;
-}
-body {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
+  font-size: 62.5%;
 }
 main {
   flex-grow: 1;
+}
+body {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18.83px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  height: 100vh;
+  color: #333;
+}
+h1 {
+  margin: 0;
 }
 .container {
   width: 100%;
   max-width: 1024px;
   padding: 0 20px;
   margin: 0 auto;
+}
+.site-logo {
+  width: 181px;
+  height: 26px;
 }

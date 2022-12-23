@@ -1,4 +1,6 @@
 .header {
+  position: relative;
+  z-index: 10;
   padding-top: 14px;
   @include media(620px) {
     &.show {
